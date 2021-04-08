@@ -1,5 +1,6 @@
 // dado 3 numeros indicar   el mayor, 
 // y el segundo mayor
+const name = "dayana";
 const msjM = document.querySelector(".js-msjM");
 const msjSm = document.querySelector(".js-msjSm");
 
