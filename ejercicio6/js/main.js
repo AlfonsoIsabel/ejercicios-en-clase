@@ -8,9 +8,9 @@ const text = document.querySelector(".text");
 = 37 + 111 = 148 */ 
 
 //ciclo FOR, iterativas,bucles,ciclos,
-// index++     =>   index = index +1
+// index++     =>   index = index +2
 
-for (let index = 0; index < age.length; index++) {
+for (let index = 0; index <= age.length -1; index++) {
   console.log(age[index]);
 }
 
@@ -23,6 +23,8 @@ function avg(arrayAge){
   const prom = acum / arrayAge.length;
   return prom;
 }
+
+
 function msj(){
   const promAge = avg(age); 
   if(promAge < 0 || promAge > 100){
